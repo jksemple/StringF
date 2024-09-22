@@ -1,6 +1,6 @@
 #include "StringF.h"
 const String StringF(const char* format, ...) {
-    char buffer[100];
+    char buffer[200];
 
     if (! format) {
         sprintf(buffer, "Missing format string");
